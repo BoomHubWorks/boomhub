@@ -99,8 +99,8 @@ FloppaHub.TextScaled = true
 FloppaHub.TextSize = 14.000
 FloppaHub.TextWrapped = true
 FloppaHub.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Schervi/FloppaHub/main/FloppaHubMain.lua"))()
 	Description.Text = "Pet Sim X Autofarm Script, little outdated but still works"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Schervi/FloppaHub/main/FloppaHubMain.lua"))()
 end)
 
 UICorner_6.CornerRadius = UDim.new(0, 3)
@@ -140,8 +140,8 @@ DarkHub.TextScaled = true
 DarkHub.TextSize = 14.000
 DarkHub.TextWrapped = true
 DarkHub.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 	Description.Text = "Probably the most popular script hub, but it needs a key"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 end)
 
 UICorner_8.CornerRadius = UDim.new(0, 3)
@@ -180,8 +180,8 @@ OwlHub.TextScaled = true
 OwlHub.TextSize = 14.000
 OwlHub.TextWrapped = true
 OwlHub.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 	Description.Text = "OwlHub is only supported on some executors. The only free supported executer is KRNL."
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 end)
 
 UICorner_10.CornerRadius = UDim.new(0, 3)
