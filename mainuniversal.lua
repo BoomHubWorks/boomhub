@@ -121,21 +121,6 @@ WalkSpeedSec:NewButton("Noclip GUI", "go to backrooms", function()
     Status.TextWrapped = true
     Status.TextXAlignment = Enum.TextXAlignment.Left
     
-    Credit.Name = "Credit"
-    Credit.Parent = BG
-    Credit.BackgroundColor3 = Color3.new(1, 1, 1)
-    Credit.BackgroundTransparency = 1
-    Credit.Position = UDim2.new(0.195238099, 0, 0.866141737, 0)
-    Credit.Size = UDim2.new(0, 128, 0, 17)
-    Credit.Font = Enum.Font.SourceSans
-    Credit.FontSize = Enum.FontSize.Size18
-    Credit.Text = "Created by MIQUELVERFAILLIE"
-    Credit.TextColor3 = Color3.new(1, 1, 1)
-    Credit.TextSize = 16
-    Credit.TextStrokeColor3 = Color3.new(0.196078, 0.196078, 0.196078)
-    Credit.TextStrokeTransparency = 0
-    Credit.TextWrapped = true
-    
     Toggle.MouseButton1Click:connect(function()
         if Status.Text == "off" then
             Clipon = true
