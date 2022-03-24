@@ -1,10 +1,6 @@
 --[[
-                        CMDS
-Creation:
-local Window = Library.CreateLib("TITLE", "DarkTheme")
-local Tab = Window:NewTab("Title")
-local Section = Tab:NewSection("Text")
-
+Open Source because its universal script lol
+discord : dsc.gg/boomhub
 ]]
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Boomhub | Universal", "Synapse")
