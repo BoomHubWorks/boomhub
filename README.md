@@ -7,4 +7,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/NikoNiyazi/boomhub/ma
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NikoNiyazi/boomhub/main/mainuniversal.lua", true))() -- new universal script.
 ```
 # Discord: 
-dsc.gg/boomhub
+[dsc.gg/boomhub](https://dsc.gg/boomhub)
