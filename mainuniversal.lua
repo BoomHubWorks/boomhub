@@ -1,10 +1,5 @@
 --[[
-                        CMDS
-Creation:
-local Window = Library.CreateLib("TITLE", "DarkTheme")
-local Tab = Window:NewTab("Title")
-local Section = Tab:NewSection("Text")
-
+ITS NOW OPEN SOURCE!!!!!
 ]]
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Boomhub | Universal", "GrapeTheme")
