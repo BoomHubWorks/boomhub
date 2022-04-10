@@ -1,23 +1,3 @@
---[[ Properties --
-local curmsg = "[...] - Loading Semi-Bot..."
-local mtype = "All"
-local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Boomhub | Custom Spammer", "GrapeTheme")
--- Init --
-Event:FireServer(curmsg, mtype)
-wait(3)
-curmsg = "[...] - Loaded!"
--------------------------------------------------------------------------------------------------
-Event:FireServer(curmsg, mtype)
-wait(1)
-while true do
-    curmsg = "[BOT] testspam "..math.random(0,1400)
-    Event:FireServer(curmsg, mtype)
-    wait(1)
-end
-]]
-
 -- LOADER --
 local curmsg = "[...] - Loading..."
 local mtype = "All"
