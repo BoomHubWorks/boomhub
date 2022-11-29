@@ -1,3 +1,5 @@
+[[ All my homies hate Changed and Kp
+         Fuck Changed and Kp         ]]
 -- LOADER --
 local curmsg = "[...] - Loading..."
 local mtype = "All"
